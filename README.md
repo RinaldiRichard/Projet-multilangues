@@ -6,4 +6,4 @@ Il y a également une fonctionnalité qui permet de reconnaitre automatiquement 
 
 En outre, j'ai ajouté le projet de Slider fait précédement pour faire une pseudo page de présentation d'un site.
 
-Pour tester, il suffit de cloner le repository et de faire un npm install puis npm start
+Pour tester, il suffit de cloner le repository, de se place dans le dossier projet-multilangues et de faire un npm install puis npm start
