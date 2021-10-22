@@ -8,7 +8,7 @@ const dataSlider = [
   },
   {
     id: uuidv4(),
-    title: "Lorem ipsum",
+    title: "Lorem ",
     subTitle: "Lorem"
   },
   {
@@ -18,7 +18,7 @@ const dataSlider = [
   },
   {
     id: uuidv4(),
-    title: "Lorem ipsum",
+    title: "Lorem ",
     subTitle: "Lorem"
   },
   {

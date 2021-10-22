@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import "./Slider.css";
 import dataSlider from "./dataSlider";
 import BtnSlider from "./BtnSlider";
+import data from "../../assets/data";
+import { Context } from "../../context/langContext";
 
 export default function Slider() {
+  const { lang } = useContext(Context);
   const [animSlide, setAnimSlide] = useState({
     index: 1,
     inProgress: false,
@@ -47,10 +50,10 @@ export default function Slider() {
               animSlide.index === index + 1 ? "slide active-anim" : "slide"
             }
           >
-            <p className="text-center">
+            <a href="">
+              <p className="text-center">{data[ lang ].titleImg}</p>
+            </a>
 
-            {obj.title}
-            </p>
             <img
               src={process.env.PUBLIC_URL + `/Imgs/img${index + 1}.jpg`}
               alt=""
