@@ -3,6 +3,7 @@ import Contenu from "./Components/Contenu/Contenu";
 import ToggleLangs from "./Components/ToggleLangs/ToggleLangs";
 import ContextProvider from "./context/langContext";
 import Slider from "./Components/Slider/Slider";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <ToggleLangs />
       <Contenu />
       <Slider />
-    </ContextProvider>
+    </ContextProvider> 
   );
 }
 
