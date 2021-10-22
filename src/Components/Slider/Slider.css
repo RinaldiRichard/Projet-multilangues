@@ -44,6 +44,7 @@
   width: 20px;
   height: 20px;
   pointer-events: none;
+  background: #f1f1f1;
 }
 .prev {
   top: 50%;
@@ -63,6 +64,7 @@
   left: 50%;
   transform: translateX(-50%);
   display: flex;
+  background-color: transparent;
 }
 .dot {
   width: 20px;
